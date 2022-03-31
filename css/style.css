@@ -6,14 +6,13 @@
 }
 
 /* Header */
-/* Navigazione */
 header .container{
-    /* width: 100%;
-    height: 80px; */
+    /* width: 100%; */
+    /* height: 80px;  */
     padding: 20px;
     /* Debug */
     border: solid 4px green;
-    background-color: red;
+    /* background-color: red; */
 }
 
 header .container::after{
@@ -22,6 +21,30 @@ header .container::after{
     clear: both;
 }
 
-img {
+.navscroll {
+    position: fixed;
+    width: 100%;
+}
+
+.navscroll img, .navlista {
     float: left;
 }
+
+/* Lista navigazione */
+.navscroll a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.navlistadx {
+    float: right;
+}
+
+.navlistadx a:last-child{
+    color: white;
+    padding: 5px 20px;
+    background-color: blue;
+}
+
