@@ -104,7 +104,30 @@ table {
 }
 
 th, td {
-    border: 1px solid; 
+    border: 1px solid;
+    padding: 15px; 
+}
+
+td {
+    padding-bottom: 120px;
+}
+
+
+main .container2{
+    margin-top: 100px;
+    width: 70%;
+}
+
+main h2 {
+    font-size: 45px;
+}
+
+ul {
+    list-style-type: none;  
+}
+
+li {
+    margin-bottom: 20px;
 }
 
 
