@@ -84,11 +84,12 @@ h1 {
 }
 
 .colsx p{
-    margin-bottom: 20px;
+    margin: 50px 0 20px;
 }
 
 .coldx {
     float: left;
+    margin-left: 30px;
 }
 
 .coldx img {
@@ -98,24 +99,36 @@ h1 {
 /* Main */
 
 /* Tabella */
-table {
-    width: 100%;
-    /* border: 1px solid; */
+.colonna-off::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-th, td {
+.colonna-off {
+    float: left;
+    width: 300px;
+    padding: 20px;
+    margin-right: 20px;
+    /* Debug */
+    border: 2px solid red;
+}
+
+
+
+/* th, td {
     border: 1px solid;
     padding: 15px; 
 }
 
 td {
     padding-bottom: 120px;
-}
+} */ */
 
 
 main .container2{
     margin-top: 100px;
-    width: 70%;
+    width: 60%;
 }
 
 main h2 {
