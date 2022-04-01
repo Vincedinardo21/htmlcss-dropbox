@@ -58,7 +58,7 @@ a {
 }
 
 .container2 {
-    position: relative;
+    padding-top: 150px;
     margin: 0 auto;
     width: 80%;
     height: 100vh;
@@ -67,16 +67,18 @@ a {
 }
 
 h1 {
-    position: absolute;
-    bottom: 270px;
     font-size: 65px;
 }
 
+.row::after{
+    contain: "";
+    display: table;
+    clear: both;
+}
+
 .colsx {
-    position: absolute;
-    bottom: 110px;
-    left: 0;
-    width: 30%;
+    float: left;
+    width: 400px;
     /* Debug */
     /* background-color: brown; */
 }
@@ -86,9 +88,7 @@ h1 {
 }
 
 .coldx {
-    position: absolute;
-    top: 250px;
-    left: 450px;
+    float: left;
 }
 
 .coldx img {
