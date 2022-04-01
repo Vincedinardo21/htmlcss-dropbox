@@ -34,9 +34,9 @@ header .container::after{
 }
 
 /* Lista navigazione */
-header a {
+a {
     color: black;
-    text-align: center;
+    /* text-align: center; */
     text-decoration: none;
     margin: 15px;
 }
@@ -94,4 +94,17 @@ h1 {
 .coldx img {
     width: 450px;
 }
+
+/* Main */
+
+/* Tabella */
+table {
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+th, td {
+    border: 1px solid; 
+}
+
 
