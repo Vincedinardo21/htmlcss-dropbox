@@ -93,42 +93,45 @@ h1 {
 }
 
 .coldx img {
-    width: 450px;
+    width: 550px;
 }
+/* Fine Jumbotron */
 
 /* Main */
-
 /* Tabella */
-.colonna-off::after{
+.colonna-off, .colcenter {
+    float: left;
+    width: 270px;
+    padding: 20px;
+    /* margin-right: 20px; */
+    /* Debug */
+    border: 2px solid red;
+}
+
+.colcenter{
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+
+.row-sec1::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.colonna-off {
+.row-sec1 img {
     float: left;
-    width: 300px;
-    padding: 20px;
-    margin-right: 20px;
-    /* Debug */
-    border: 2px solid red;
+    width: 450px;
 }
-
-
-
-/* th, td {
-    border: 1px solid;
-    padding: 15px; 
-}
-
-td {
-    padding-bottom: 120px;
-} */ */
-
 
 main .container2{
     margin-top: 100px;
-    width: 60%;
+    width: 65%;
+}
+
+main a {
+    margin: 0;
 }
 
 main h2 {
@@ -142,5 +145,34 @@ ul {
 li {
     margin-bottom: 20px;
 }
+
+/* Sezizone 2 */
+.enterprice {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.testo-sec2 {
+    padding: 20px;
+    width: 400px;
+    float: right;
+}
+
+.testo-sec2 a:last-child{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.testo-sec2 p {
+    margin-bottom: 20px;
+}
+
+.testo-sec2 a {
+    margin: 0;
+}
+
+
 
 
