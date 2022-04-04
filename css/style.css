@@ -13,7 +13,7 @@ body {
 header .container{
     padding: 20px;
     /* Debug */
-    border: solid 1px gray;
+    border-bottom: solid 1px gray;
     background-color: white;
 }
 
@@ -191,6 +191,53 @@ li {
     width: 250px;
 }
 
+.end-sec3 {
+    float: left;
+}
+
+/* Sezione 5 */
+.row-sec5::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.domande {
+    width: 100%;
+    float: left;    
+    background-color: aqua;
+}
+
+.domande h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+}
+
+/* Footer */
+footer {  
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.footer-container {
+    padding: 60px;
+    margin: 0 auto;
+    width: 85%;
+    height: 400px;
+    background-color: yellow;
+}
+
+.footer-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    float: left;
+    margin-right: 50px;
+}
 
 
 
