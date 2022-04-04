@@ -103,13 +103,17 @@ h1 {
 /* Fine Jumbotron */
 
 /* Main */
-/* Tabella */
-.colonna-off, .colcenter {
-    float: left;
-    width: 270px;
-    padding: 20px;
-    /* Debug */
-    border: 2px solid red;
+/* Sezione 1 */
+/* .colonna-off, .colcenter::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.colonna-off::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .colcenter{
@@ -144,16 +148,29 @@ main h2 {
 }
 
 ul {
+    /* width: 100px; */
+    float: left;
+    width: 240px;
+    padding: 10px;
+    background-color: aqua;
     list-style-type: none;  
 }
 
 li {
     margin-bottom: 20px;
 }
+/* Fine sezione 1 */
 
 /* Sezizone 2 */
-.enterprice {
+.enterprice::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blocco-ent {
     float: left;
+    margin-bottom: 100px;
     padding: 10px;
     width: 100%;
     border: 1px solid red;
@@ -192,7 +209,30 @@ li {
 }
 
 .end-sec3 {
+    margin-top: 30px;
     float: left;
+}
+
+/* Sezione 4 */
+.sec4 {
+    width: 100%;
+    height: 500px;
+    
+}
+
+.bloccosx::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bloccosx{
+    
+}
+
+.bloccosx .first {
+    float: left;
+    background-color: brown;
 }
 
 /* Sezione 5 */
@@ -203,6 +243,7 @@ li {
 }
 
 .domande {
+    margin-top: 50px;
     width: 100%;
     float: left;    
     background-color: aqua;
@@ -210,14 +251,17 @@ li {
 
 .domande h4 {
     margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 20px;
     border-top: 1px solid gray;
 }
 
 /* Footer */
-footer {  
+footer { 
+    margin-top: 300px; 
     width: 100%;
-    background-color: blueviolet;
+    background-color: black;
+    color: white;
 }
 
 .footer-container {
@@ -225,7 +269,7 @@ footer {
     margin: 0 auto;
     width: 85%;
     height: 400px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .footer-container::after{
@@ -237,6 +281,18 @@ footer {
 ul {
     float: left;
     margin-right: 50px;
+}
+
+#italiano {
+    border-top: 1px solid gray;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: gray;
+}
+
+footer a {
+    margin: 0;
+    color: white;
 }
 
 
