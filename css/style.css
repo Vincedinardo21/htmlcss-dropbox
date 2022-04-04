@@ -92,6 +92,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.colsx div {
+    margin-top: 20px;
+}
+
 .coldx {
     float: left;
     margin-left: 30px;
@@ -150,12 +154,16 @@ main h2 {
 main ul {
     /* width: 100px; */
     float: left;
-    margin-right: 40px;
-    width: 240px;
+    margin-right: 20px;
+    width: 270px;
     /* padding: 10px; */
     border: 1px solid gray;
     /* background-color: aqua; */
     list-style-type: none;  
+}
+
+span a{
+    color: blue;
 }
 
 li {
@@ -184,9 +192,15 @@ main hr{
 .blocco-ent {
     float: left;
     margin-bottom: 100px;
-    padding: 10px;
+    margin-top: 40px;
+    /* padding: 10px; */
     width: 100%;
-    border: 1px solid red;
+    border: 1px solid gray;
+}
+
+.blocco-ent div{
+    text-align: center;
+    border-bottom: 1px solid gray;
 }
 
 .testo-sec2 {
@@ -235,6 +249,11 @@ main hr{
     width: 500px;
     margin-top: 30px;
     float: left;
+}
+
+.end-blocco a{
+    color: blue;
+    text-decoration: underline;
 }
 
 /* Sezione 4 */
@@ -305,7 +324,7 @@ footer {
 
 footer ul {
     float: left;
-    margin-right: 50px;
+    margin-right: 20px;
     list-style-type: none;
 }
 
