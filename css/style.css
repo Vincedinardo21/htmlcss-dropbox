@@ -208,32 +208,42 @@ li {
     width: 250px;
 }
 
-.end-sec3 {
+/* .end-sec3 {
     margin-top: 30px;
     float: left;
-}
-
-/* Sezione 4 */
-.sec4 {
-    width: 100%;
-    height: 500px;
-    
-}
-
-.bloccosx::after{
+} */
+.end-sec3::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.bloccosx{
-    
+.end-blocco{
+    /* width: 100%; */
+    margin-top: 30px;
+    float: left;
 }
 
-.bloccosx .first {
+/* Sezione 4 */
+.sec4::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* .bloccosx::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.bloccosx {
     float: left;
+    width: 100%;
+    height: 300px;
     background-color: brown;
 }
+/* Fine sezione 4 */
 
 /* Sezione 5 */
 .row-sec5::after{
