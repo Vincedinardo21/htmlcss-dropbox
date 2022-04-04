@@ -104,6 +104,11 @@ h1 {
 .coldx img {
     width: 550px;
 }
+
+.fa-arrow-down{
+    margin-top: 10px;
+    font-size: 40px;
+}
 /* Fine Jumbotron */
 
 /* Main */
@@ -119,11 +124,6 @@ h1 {
     display: table;
     clear: both;
 }
-
-/* .colcenter{
-    margin-right: 33px;
-    margin-left: 33px;
-} */
 
 
 .row-sec1::after {
@@ -154,12 +154,16 @@ main h2 {
 main ul {
     /* width: 100px; */
     float: left;
-    margin-right: 20px;
+    margin-right: 22px;
     width: 270px;
     /* padding: 10px; */
     border: 1px solid gray;
     /* background-color: aqua; */
     list-style-type: none;  
+}
+
+.fa-check {
+    color: blue;
 }
 
 span a{
@@ -261,7 +265,7 @@ main hr{
 /* Sezione 4 */
 .sec4 {
     width: 100%;
-    background-color:cadetblue;
+    /* background-color:cadetblue; */
 }
 
 .bloccosx::after{
@@ -269,19 +273,6 @@ main hr{
     display: table;
     clear: both;
 }
-
-/* .blocco-sec4 a{
-    float: right;
-    background-color: gray;
-} */
-
-/* .bloccosx {
-    float: left;
-    margin-top: 20px;
-    width: 100%;
-    height: 500px;
-    background-color:cadetblue;
-} */
 
 .bloccosx h2{
     float: left;
@@ -313,17 +304,21 @@ main hr{
     /* background-color: aqua; */
 }
 
+.fa-angle-down {
+    float: right;
+}
+
 .domande h4 {
     margin-top: 20px;
     padding-top: 20px;
     margin-bottom: 20px;
-    border-top: 1px solid gray;
+    border-top: 1px solid lightgray;
 }
 /* Fine sezione 5 */
 
 /* Footer */
 footer { 
-    margin-top: 10px; 
+    margin-top: 80px; 
     width: 100%;
     background-color: black;
     color: white;
